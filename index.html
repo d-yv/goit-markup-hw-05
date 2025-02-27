@@ -70,7 +70,7 @@
 
       <section class="skills">
         <div class="container">
-          <h2 class="skills-title">Our skills</h2>
+          <h2 class="visually-hiden skills-title">Our skills</h2>
           <ul class="skills-list">
             <li class="skills-list-item">
               <div class="skills-icon-box">
@@ -478,7 +478,7 @@
           </p>
         </div>
         <div class="socials">
-          <p class="footer-socials-text">Social media</p>
+          <p class="footer-text-title">Social media</p>
           <ul class="footer-socials-list">
             <li class="footer-socials-item">
               <a href="" class="footer-socials-link" target="_blank"
@@ -506,7 +506,33 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="footer-text-title">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <label for="input-field">
+              <input
+                class="footer-subscribe-input"
+                id="input-field"
+                type="email"
+                name="subscribe"
+                placeholder="e-mail"
+              />
+            </label>
+            <button class="footer-send-button" type="submint">
+              Subscribe
+              <svg class="footer-send-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <!-- #region Modal -->
+    <div class="backdrop">
+      <div class="modal"></div>
+    </div>
+    <!-- #endregion Modal -->
   </body>
 </html>
